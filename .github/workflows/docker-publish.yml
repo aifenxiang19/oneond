@@ -29,4 +29,4 @@ jobs:
       with:
         context: . # 使用当前目录下的 Dockerfile
         push: true # 推送到 Docker Hub
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/my-ql:latest # 给镜像打标签，例如：your-username/my-ql:latest
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/fenxiang:latest # 给镜像打标签，例如：your-username/my-ql:latest
